@@ -1,0 +1,14 @@
+﻿CREATE TABLE apiclima.tempo (
+
+	id SERIAL NOT NULL,
+	cidade VARCHAR(100) NOT NULL,
+	tempMin VARCHAR(100) NOT NULL,
+	tempMax VARCHAR(100) NOT NULL,
+	umidade VARCHAR(100) NOT NULL,
+	pressao VARCHAR(100) NOT NULL,
+	data VARCHAR(100) NOT NULL,
+	velocidade VARCHAR(100) NOT NULL,
+	main VARCHAR(100) NOT NULL,
+	icone VARCHAR(100) NOT NULL
+
+);
